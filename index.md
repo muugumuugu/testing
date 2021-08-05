@@ -1,92 +1,81 @@
-Introduction to HTML and CSS
-============================
+# Introduction to Javascript
+
+The purpose of this 3-hour session is to talk about Javascript: What it is, how it's used on the web, and how we can take advantage of Javascript libraries with only a minimal understanding of programming.
+
+## Introduction
+
+* Teacher introduction
+   * Who am I?
+   * What do I use JS for?
+* Student introduction
+   * Why are you interested in JS?
+* Today
+   * Laptops down
+   * I show examples, you try them afterwards
 
 
-### Introduction
+## HTML and CSS?
 
-Let's introduce the class and what we'll be doing.
-
-[Introduction Slides](introduction.html)
-
-
-### What is HTML?
-
-A short introduction to what HTML is, why we need it, and what it looks like.
-
-[HTML Slides](html.html)
+* How the web works
+* HTML, CSS and JS go together
+* I'm using bootstrap.css as a styling library in these examples
 
 
-### What is CSS?
+## What is Javascript?
 
-A short introduction to what CSS is, why we need it, and what it looks like.
-
-[CSS Slides](html.html)
-
-
-### The Box Model
-
-We'll introduce the HTML box model, and go through how content flows in a HTML page.
-
-[Box Model Slides](box-model.html)
+* Runs in the browser
+* How to embed on a website (2 ways)
+* Javascript examples
+   * [9/11 Tapes](http://www.nytimes.com/interactive/2011/09/08/nyregion/911-tapes.html)
+   * [512 paths to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
+   * [Swing State Tracker](http://elections.nytimes.com/2012/swing-state-tracker)
+   * [Power Outages](http://www.nytimes.com/interactive/2012/10/31/nyregion/where-the-power-is-out-and-returning.html)
+   * [117 years of drought in the US](http://www.nytimes.com/interactive/2012/07/20/us/drought-footprint.html?gwh=10A7F534F97385C65250892EDFE18137)
 
 
-### Text
+## Introduction to Javascript
 
-Let's look at the wide range of tags used for displaying text, and try to design them real nice.
-
-[Text Slides](text.html)
-
-### More elements
-
-We'll learn about links, webfonts, and how to use lists to create menus.
-
-[More Elements](more-elements.html)
+* Variables
+* Functions
+* Functions in Functions
+* Javascript is nothing without libraries
 
 
-### Media
+## jQuery
 
-HTML allows for embedding of several types of interactive media elements. We'll take a look at different image formats, audio, and video.
+* What is jQuery?
+* Downloading and embedding jQuery
+* How does jQuery work
+* Using the jQuery.com documentaion
+* **Example:** [Toggle menu with jQuery](jquery_toggle.html)
+* **Example:** [Something with jQuery animate](jquery_animate.html)
 
-[Media Slides](media.html)
+## jQuery Plugins
 
-
-### Layouts
-
-Let's use HTML and CSS to design website layouts.
-
-[Layouts Slides](layouts.html)
-
-
-### Responsive Layouts
-
-We'll look at media queries and create designs that are responsive to any screen size.
-
-[Responsive Layouts Slides](responsive-layouts.html)
-
-
-### CSS for Print
-
-HTML and CSS is not only a good match for websites. With paged media CSS, you can do print-designs too!
-
-[Print Slides](print.html)
+* What is a jQuery plugin?
+* How to find a plugin: [plugins.jquery.com](http://plugins.jquery.com/)
+* How to add a plugin
+* Example plugins
+   * [jQuery UI](http://jqueryui.com/)
+   * [jQuery Mobile](http://jquerymobile.com/)
+   * [jQuery Tools](http://jquerytools.org/)
+* **Plugin Example:** [jQuery scrollto](jquery_scrollto.html)
+* **Plugin Example:** [jQuery tools image slideshow](jquery_scrollable.html)
 
 
-### Data
+## Chart.js
 
-Let's look at some more HTML tags that are used to capture or display data on a HTML page.
-
-[Data Slides](data.html)
-
-
-### Using Front-end Frameworks
-
-Several popular front-end frameworks exists to make it easier to develop designs in HTML. Let's take a look at a few of them.
-
-[Frameworks Slides](frameworks.html)
+* What is chart.js?
+* How does it work?
+* **Example:** [Doughnut chart](chart_doughnut.html)
+* **Example:** [Line chart](chart_line.html)
+* **Example:** [Radar chart](chart_radar.html)
 
 
-### Quick introduction to Javascript
+## Advanced Libraries
 
-As a last thing, let's introduce the concepts of JS.
-
-[JavaScript Slides](javascript.html)
+* [D3](http://d3js.org/) ([Examples](https://github.com/mbostock/d3/wiki/Gallery))
+* [Processing.js](http://processingjs.org/)
+* [Paper.js](http://paperjs.org/)
+* [Raphael.js](http://raphaeljs.com/)
+* [List of good libraries for data visualization](http://selection.datavisualization.ch/)

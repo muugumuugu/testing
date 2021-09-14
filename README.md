@@ -3,3 +3,4 @@ test
 ```math
 \sin
 ```
+$$\sin$$
